@@ -1,6 +1,6 @@
 module "FGT-SDWAN-Module" {
   source          = "WEEMR/FGT-SDWAN-Module/aws"
-  version         = "0.0.1"
+  version         = "0.0.2"
   access_key      = " < Access Key > "                         #  IAM Account Access Key
   secret_key      = " < Secret Key > "                         #  IAM Account Secret Key
   Resources_Owner = " < Name > "                               #  Your 1st Initial, Last Name to tag resources
